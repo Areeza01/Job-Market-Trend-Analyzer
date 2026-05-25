@@ -1,0 +1,26 @@
+[
+  {
+    "salary_band": "Under $60k",
+    "count": 1866
+  },
+  {
+    "salary_band": "$60k - $90k",
+    "count": 22445
+  },
+  {
+    "salary_band": "$90k - $120k",
+    "count": 22560
+  },
+  {
+    "salary_band": "$120k - $150k",
+    "count": 20520
+  },
+  {
+    "salary_band": "$150k - $180k",
+    "count": 20985
+  },
+  {
+    "salary_band": "Over $180k",
+    "count": 11624
+  }
+]

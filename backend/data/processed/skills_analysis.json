@@ -1,0 +1,282 @@
+[
+  {
+    "skill": "Communication",
+    "frequency": 37678,
+    "avg_salary": 125569.29
+  },
+  {
+    "skill": "SQL",
+    "frequency": 37476,
+    "avg_salary": 125876.48
+  },
+  {
+    "skill": "Git",
+    "frequency": 37438,
+    "avg_salary": 126208.42
+  },
+  {
+    "skill": "Problem Solving",
+    "frequency": 37229,
+    "avg_salary": 125713.5
+  },
+  {
+    "skill": "Agile",
+    "frequency": 37157,
+    "avg_salary": 126019.5
+  },
+  {
+    "skill": "Python",
+    "frequency": 21861,
+    "avg_salary": 127263.26
+  },
+  {
+    "skill": "Docker",
+    "frequency": 14523,
+    "avg_salary": 135184.51
+  },
+  {
+    "skill": "AWS",
+    "frequency": 11027,
+    "avg_salary": 142792.22
+  },
+  {
+    "skill": "React",
+    "frequency": 7868,
+    "avg_salary": 114918.91
+  },
+  {
+    "skill": "TypeScript",
+    "frequency": 7862,
+    "avg_salary": 115023.39
+  },
+  {
+    "skill": "JavaScript",
+    "frequency": 7820,
+    "avg_salary": 112152.03
+  },
+  {
+    "skill": "REST APIs",
+    "frequency": 7604,
+    "avg_salary": 117416.1
+  },
+  {
+    "skill": "PySpark",
+    "frequency": 7572,
+    "avg_salary": 134122.81
+  },
+  {
+    "skill": "MongoDB",
+    "frequency": 7470,
+    "avg_salary": 116002.72
+  },
+  {
+    "skill": "Node.js",
+    "frequency": 7458,
+    "avg_salary": 116082.84
+  },
+  {
+    "skill": "Terraform",
+    "frequency": 6940,
+    "avg_salary": 153754.29
+  },
+  {
+    "skill": "Linux",
+    "frequency": 6919,
+    "avg_salary": 126493.41
+  },
+  {
+    "skill": "Kubernetes",
+    "frequency": 6909,
+    "avg_salary": 153962.66
+  },
+  {
+    "skill": "Product Roadmap",
+    "frequency": 4135,
+    "avg_salary": 133825.76
+  },
+  {
+    "skill": "Spring Boot",
+    "frequency": 4133,
+    "avg_salary": 120608.59
+  },
+  {
+    "skill": "A/B Testing",
+    "frequency": 4131,
+    "avg_salary": 132455.22
+  },
+  {
+    "skill": "Java",
+    "frequency": 4118,
+    "avg_salary": 120095.92
+  },
+  {
+    "skill": "Data Analytics",
+    "frequency": 4093,
+    "avg_salary": 132473.81
+  },
+  {
+    "skill": "Jira",
+    "frequency": 4055,
+    "avg_salary": 133296.2
+  },
+  {
+    "skill": "UI/UX Concepts",
+    "frequency": 4042,
+    "avg_salary": 133091.14
+  },
+  {
+    "skill": "Express",
+    "frequency": 4042,
+    "avg_salary": 118548.22
+  },
+  {
+    "skill": "Scrum",
+    "frequency": 3996,
+    "avg_salary": 132289.29
+  },
+  {
+    "skill": "Statistics",
+    "frequency": 3800,
+    "avg_salary": 133142.5
+  },
+  {
+    "skill": "R",
+    "frequency": 3794,
+    "avg_salary": 132961.49
+  },
+  {
+    "skill": "Scala",
+    "frequency": 3787,
+    "avg_salary": 124144.23
+  },
+  {
+    "skill": "Airflow",
+    "frequency": 3767,
+    "avg_salary": 124093.95
+  },
+  {
+    "skill": "HTML/CSS",
+    "frequency": 3758,
+    "avg_salary": 106951.41
+  },
+  {
+    "skill": "Sass",
+    "frequency": 3755,
+    "avg_salary": 106204.15
+  },
+  {
+    "skill": "Pandas",
+    "frequency": 3749,
+    "avg_salary": 133183.7
+  },
+  {
+    "skill": "Redux",
+    "frequency": 3748,
+    "avg_salary": 106609.82
+  },
+  {
+    "skill": "ETL",
+    "frequency": 3740,
+    "avg_salary": 123968.61
+  },
+  {
+    "skill": "Machine Learning",
+    "frequency": 3739,
+    "avg_salary": 133408.85
+  },
+  {
+    "skill": "Kafka",
+    "frequency": 3716,
+    "avg_salary": 124515.9
+  },
+  {
+    "skill": "Webpack",
+    "frequency": 3713,
+    "avg_salary": 105498.33
+  },
+  {
+    "skill": "TensorFlow",
+    "frequency": 3709,
+    "avg_salary": 138400.32
+  },
+  {
+    "skill": "Hadoop",
+    "frequency": 3609,
+    "avg_salary": 124777.94
+  },
+  {
+    "skill": "Azure",
+    "frequency": 3545,
+    "avg_salary": 160165.3
+  },
+  {
+    "skill": "Penetration Testing",
+    "frequency": 3535,
+    "avg_salary": 116145.74
+  },
+  {
+    "skill": "Cloud Security",
+    "frequency": 3529,
+    "avg_salary": 159157.16
+  },
+  {
+    "skill": "Cryptography",
+    "frequency": 3527,
+    "avg_salary": 117188.74
+  },
+  {
+    "skill": "Enterprise Architecture",
+    "frequency": 3513,
+    "avg_salary": 159808.8
+  },
+  {
+    "skill": "Firewalls",
+    "frequency": 3486,
+    "avg_salary": 115605.42
+  },
+  {
+    "skill": "GCP",
+    "frequency": 3462,
+    "avg_salary": 158262.94
+  },
+  {
+    "skill": "Bash",
+    "frequency": 3458,
+    "avg_salary": 138157.95
+  },
+  {
+    "skill": "Network Security",
+    "frequency": 3445,
+    "avg_salary": 115653.79
+  },
+  {
+    "skill": "SIEM",
+    "frequency": 3431,
+    "avg_salary": 115816.0
+  },
+  {
+    "skill": "Wireshark",
+    "frequency": 3418,
+    "avg_salary": 116661.61
+  },
+  {
+    "skill": "Redis",
+    "frequency": 3411,
+    "avg_salary": 114299.71
+  },
+  {
+    "skill": "CI/CD",
+    "frequency": 3361,
+    "avg_salary": 140220.98
+  },
+  {
+    "skill": "Go",
+    "frequency": 3360,
+    "avg_salary": 118471.9
+  },
+  {
+    "skill": "PostgreSQL",
+    "frequency": 3325,
+    "avg_salary": 113381.26
+  }
+]

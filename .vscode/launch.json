@@ -1,0 +1,42 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "FastAPI: Run App Server",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": [
+        "backend.app:app",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "8000",
+        "--reload"
+      ],
+      "jinja": true,
+      "justMyCode": true
+    },
+    {
+      "name": "Python: Generate Data",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/backend/data_generator.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python: Spark Pipeline",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/backend/spark_pipeline.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python: Train Models",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/backend/train_model.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}

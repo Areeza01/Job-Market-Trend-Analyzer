@@ -1,0 +1,32 @@
+[
+  {
+    "industry": "E-Commerce",
+    "job_count": 20121,
+    "avg_salary": 127050.24,
+    "remote_percentage": 33.9
+  },
+  {
+    "industry": "Healthcare",
+    "job_count": 20048,
+    "avg_salary": 126755.53,
+    "remote_percentage": 33.73
+  },
+  {
+    "industry": "Finance",
+    "job_count": 19990,
+    "avg_salary": 126221.18,
+    "remote_percentage": 33.35
+  },
+  {
+    "industry": "Education",
+    "job_count": 19924,
+    "avg_salary": 126603.11,
+    "remote_percentage": 33.83
+  },
+  {
+    "industry": "Tech",
+    "job_count": 19917,
+    "avg_salary": 126516.75,
+    "remote_percentage": 33.71
+  }
+]

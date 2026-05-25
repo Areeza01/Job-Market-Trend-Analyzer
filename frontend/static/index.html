@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Market Trend Analyzer</title>
+  <!-- Google Fonts: Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- Custom stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="glass-bg-glows">
+    <div class="glow-1"></div>
+    <div class="glow-2"></div>
+  </div>
+
+  <div class="app-container">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="header-left">
+        <h1 class="glow-text">JOB MARKET TREND ANALYZER</h1>
+        <p class="subtitle">Big Data Analytics & ML Intelligence Portal</p>
+      </div>
+      <div class="header-right">
+        <div id="status-badge" class="status-badge offline">
+          <span class="status-dot"></span>
+          <span id="status-text">Connecting...</span>
+        </div>
+        <a href="http://localhost:8000/docs" target="_blank" class="docs-btn">
+          API Docs <span>↗</span>
+        </a>
+      </div>
+    </header>
+
+    <!-- Quick Stats Grid -->
+    <section class="stats-grid">
+      <div class="stat-card glass-panel">
+        <div class="stat-icon-wrap blue-theme">📊</div>
+        <div class="stat-details">
+          <h3>DATASET POSTINGS</h3>
+          <p id="stat-total" class="stat-value text-blue">0</p>
+          <span class="stat-desc">Apache Spark Ingested</span>
+        </div>
+      </div>
+      <div class="stat-card glass-panel">
+        <div class="stat-icon-wrap emerald-theme">💵</div>
+        <div class="stat-details">
+          <h3>AVG MARKET SALARY</h3>
+          <p id="stat-salary" class="stat-value text-emerald">$0</p>
+          <span class="stat-desc">Median Base Salary</span>
+        </div>
+      </div>
+      <div class="stat-card glass-panel">
+        <div class="stat-icon-wrap purple-theme">🌐</div>
+        <div class="stat-details">
+          <h3>REMOTE WORK SHARE</h3>
+          <p id="stat-remote" class="stat-value text-purple">0%</p>
+          <span class="stat-desc">Work From Anywhere</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Workspace Layout -->
+    <main class="main-layout">
+      
+      <!-- Left Column: Interactive Forms -->
+      <div class="layout-column">
+        
+        <!-- ML Salary & Demand Predictor -->
+        <section class="glass-panel interactive-section">
+          <h2 class="section-title">🔮 ML Salary & Demand Predictor</h2>
+          <p class="section-subtitle">Real-time Random Forest predictions based on 100k data profiles</p>
+          
+          <form id="predictor-form">
+            <div class="form-group">
+              <label for="job-title">Job Title</label>
+              <input type="text" id="job-title" placeholder="e.g. Senior Data Scientist" required>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="exp-level">Experience Level</label>
+                <select id="exp-level" required>
+                  <option value="Entry-level">Entry-level</option>
+                  <option value="Mid-level">Mid-level</option>
+                  <option value="Senior">Senior</option>
+                  <option value="Lead">Lead</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="job-type">Job Type</label>
+                <select id="job-type" required>
+                  <option value="Remote">Remote</option>
+                  <option value="Hybrid">Hybrid</option>
+                  <option value="Onsite">Onsite</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="industry">Industry</label>
+              <select id="industry" required>
+                <option value="Tech">Tech</option>
+                <option value="Finance">Finance</option>
+                <option value="Healthcare">Healthcare</option>
+                <option value="E-Commerce">E-Commerce</option>
+                <option value="Education">Education</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label>Skills (Select core competencies)</label>
+              <div id="skills-grid" class="skills-grid">
+                <!-- Dynamically loaded skills -->
+              </div>
+            </div>
+
+            <button type="submit" class="submit-btn glow-btn-blue">
+              <span>Compute Prediction</span>
+            </button>
+          </form>
+
+          <!-- ML Prediction Results -->
+          <div id="prediction-result" class="prediction-result hidden">
+            <div class="result-divider"></div>
+            <h3>Analysis Output</h3>
+            <div class="result-cards">
+              <div class="result-card salary-result">
+                <span class="result-label">ESTIMATED SALARY</span>
+                <span id="predicted-salary" class="result-value text-emerald">$0</span>
+              </div>
+              <div class="result-card demand-result">
+                <span class="result-label">MARKET DEMAND</span>
+                <span id="predicted-demand" class="result-value text-purple">-</span>
+              </div>
+            </div>
+            <div class="feature-importance-section">
+              <h4>Top Salary Factors (Model Coefficients)</h4>
+              <div id="feature-list" class="feature-list">
+                <!-- Dynamically loaded importances -->
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- AI Skill & Career Roadmap -->
+        <section class="glass-panel interactive-section">
+          <h2 class="section-title">🗺️ AI Skill & Career Roadmap</h2>
+          <p class="section-subtitle">Curated skill development tracks matching target metrics</p>
+          
+          <div class="roadmap-selector">
+            <div class="form-group">
+              <label for="roadmap-role">Select Target Role</label>
+              <select id="roadmap-role">
+                <option value="Data Scientist">Data Scientist</option>
+                <option value="Machine Learning Engineer">Machine Learning Engineer</option>
+                <option value="Data Analyst">Data Analyst</option>
+                <option value="DevOps Engineer">DevOps Engineer</option>
+                <option value="Cloud Architect">Cloud Architect</option>
+                <option value="Data Engineer">Data Engineer</option>
+                <option value="Backend Developer">Backend Developer</option>
+              </select>
+            </div>
+            <button id="generate-roadmap-btn" class="submit-btn glow-btn-purple">
+              <span>Generate Career Path</span>
+            </button>
+          </div>
+
+          <div id="roadmap-output" class="roadmap-output hidden">
+            <div class="result-divider"></div>
+            <div class="roadmap-header">
+              <h3 id="roadmap-title">Data Scientist Roadmap</h3>
+              <p class="roadmap-meta">Big Data Framework Recommendation: Spark/Hadoop</p>
+            </div>
+            <div id="roadmap-milestones" class="roadmap-milestones">
+              <!-- Milestones dynamically added -->
+            </div>
+          </div>
+        </section>
+
+      </div>
+
+      <!-- Right Column: Visual Charts & Jobs Table -->
+      <div class="layout-column">
+        
+        <!-- Skill Demand Chart -->
+        <section class="glass-panel chart-section">
+          <h2 class="section-title">🔥 In-Demand Skill Frequencies</h2>
+          <p class="section-subtitle">Based on Apache Spark exploded aggregates</p>
+          <div class="chart-container">
+            <canvas id="skillsChart"></canvas>
+          </div>
+        </section>
+
+        <!-- Salary Distribution Chart -->
+        <section class="glass-panel chart-section">
+          <h2 class="section-title">💰 Salary Distribution</h2>
+          <p class="section-subtitle">Job postings partition frequency</p>
+          <div class="chart-container">
+            <canvas id="salaryChart"></canvas>
+          </div>
+        </section>
+
+        <!-- Dynamic Jobs Search Table -->
+        <section class="glass-panel jobs-section">
+          <h2 class="section-title">💼 Live Job Index</h2>
+          <p class="section-subtitle">Filter dataset postings</p>
+          
+          <div class="search-bar">
+            <input type="text" id="search-title" placeholder="Search job title...">
+            <select id="filter-industry">
+              <option value="">All Industries</option>
+              <option value="Tech">Tech</option>
+              <option value="Finance">Finance</option>
+              <option value="Healthcare">Healthcare</option>
+              <option value="E-Commerce">E-Commerce</option>
+              <option value="Education">Education</option>
+            </select>
+            <select id="filter-type">
+              <option value="">All Types</option>
+              <option value="Remote">Remote</option>
+              <option value="Hybrid">Hybrid</option>
+              <option value="Onsite">Onsite</option>
+            </select>
+          </div>
+
+          <div id="jobs-list" class="jobs-list">
+            <!-- Job cards dynamically added -->
+          </div>
+        </section>
+
+      </div>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

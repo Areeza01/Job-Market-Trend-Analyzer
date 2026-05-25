@@ -1,0 +1,242 @@
+[
+  {
+    "job_title": "Backend Developer",
+    "experience_level": "Entry-level",
+    "avg_salary": 69612.9,
+    "job_count": 2465
+  },
+  {
+    "job_title": "Backend Developer",
+    "experience_level": "Lead",
+    "avg_salary": 159247.8,
+    "job_count": 2387
+  },
+  {
+    "job_title": "Backend Developer",
+    "experience_level": "Mid-level",
+    "avg_salary": 96293.6,
+    "job_count": 2467
+  },
+  {
+    "job_title": "Backend Developer",
+    "experience_level": "Senior",
+    "avg_salary": 132153.02,
+    "job_count": 2437
+  },
+  {
+    "job_title": "Cloud Architect",
+    "experience_level": "Entry-level",
+    "avg_salary": 97619.43,
+    "job_count": 2532
+  },
+  {
+    "job_title": "Cloud Architect",
+    "experience_level": "Lead",
+    "avg_salary": 222708.45,
+    "job_count": 2508
+  },
+  {
+    "job_title": "Cloud Architect",
+    "experience_level": "Mid-level",
+    "avg_salary": 135418.87,
+    "job_count": 2517
+  },
+  {
+    "job_title": "Cloud Architect",
+    "experience_level": "Senior",
+    "avg_salary": 185236.98,
+    "job_count": 2585
+  },
+  {
+    "job_title": "Cyber Security Analyst",
+    "experience_level": "Entry-level",
+    "avg_salary": 68354.73,
+    "job_count": 2496
+  },
+  {
+    "job_title": "Cyber Security Analyst",
+    "experience_level": "Lead",
+    "avg_salary": 163719.31,
+    "job_count": 2522
+  },
+  {
+    "job_title": "Cyber Security Analyst",
+    "experience_level": "Mid-level",
+    "avg_salary": 96991.56,
+    "job_count": 2537
+  },
+  {
+    "job_title": "Cyber Security Analyst",
+    "experience_level": "Senior",
+    "avg_salary": 135056.3,
+    "job_count": 2531
+  },
+  {
+    "job_title": "Data Engineer",
+    "experience_level": "Entry-level",
+    "avg_salary": 74962.03,
+    "job_count": 2510
+  },
+  {
+    "job_title": "Data Engineer",
+    "experience_level": "Lead",
+    "avg_salary": 175235.12,
+    "job_count": 2466
+  },
+  {
+    "job_title": "Data Engineer",
+    "experience_level": "Mid-level",
+    "avg_salary": 105484.7,
+    "job_count": 2497
+  },
+  {
+    "job_title": "Data Engineer",
+    "experience_level": "Senior",
+    "avg_salary": 144874.41,
+    "job_count": 2431
+  },
+  {
+    "job_title": "Data Scientist",
+    "experience_level": "Entry-level",
+    "avg_salary": 81970.2,
+    "job_count": 2557
+  },
+  {
+    "job_title": "Data Scientist",
+    "experience_level": "Lead",
+    "avg_salary": 186900.16,
+    "job_count": 2476
+  },
+  {
+    "job_title": "Data Scientist",
+    "experience_level": "Mid-level",
+    "avg_salary": 112913.98,
+    "job_count": 2468
+  },
+  {
+    "job_title": "Data Scientist",
+    "experience_level": "Senior",
+    "avg_salary": 155019.0,
+    "job_count": 2563
+  },
+  {
+    "job_title": "DevOps Engineer",
+    "experience_level": "Entry-level",
+    "avg_salary": 86670.98,
+    "job_count": 2543
+  },
+  {
+    "job_title": "DevOps Engineer",
+    "experience_level": "Lead",
+    "avg_salary": 191620.12,
+    "job_count": 2421
+  },
+  {
+    "job_title": "DevOps Engineer",
+    "experience_level": "Mid-level",
+    "avg_salary": 117931.17,
+    "job_count": 2496
+  },
+  {
+    "job_title": "DevOps Engineer",
+    "experience_level": "Senior",
+    "avg_salary": 159939.78,
+    "job_count": 2476
+  },
+  {
+    "job_title": "Frontend Developer",
+    "experience_level": "Entry-level",
+    "avg_salary": 63242.18,
+    "job_count": 2416
+  },
+  {
+    "job_title": "Frontend Developer",
+    "experience_level": "Lead",
+    "avg_salary": 147978.83,
+    "job_count": 2584
+  },
+  {
+    "job_title": "Frontend Developer",
+    "experience_level": "Mid-level",
+    "avg_salary": 88517.71,
+    "job_count": 2502
+  },
+  {
+    "job_title": "Frontend Developer",
+    "experience_level": "Senior",
+    "avg_salary": 122632.34,
+    "job_count": 2483
+  },
+  {
+    "job_title": "Fullstack Developer",
+    "experience_level": "Entry-level",
+    "avg_salary": 70389.71,
+    "job_count": 2478
+  },
+  {
+    "job_title": "Fullstack Developer",
+    "experience_level": "Lead",
+    "avg_salary": 165565.12,
+    "job_count": 2494
+  },
+  {
+    "job_title": "Fullstack Developer",
+    "experience_level": "Mid-level",
+    "avg_salary": 99020.51,
+    "job_count": 2496
+  },
+  {
+    "job_title": "Fullstack Developer",
+    "experience_level": "Senior",
+    "avg_salary": 137122.46,
+    "job_count": 2529
+  },
+  {
+    "job_title": "Product Manager",
+    "experience_level": "Entry-level",
+    "avg_salary": 77768.58,
+    "job_count": 2495
+  },
+  {
+    "job_title": "Product Manager",
+    "experience_level": "Lead",
+    "avg_salary": 187801.62,
+    "job_count": 2464
+  },
+  {
+    "job_title": "Product Manager",
+    "experience_level": "Mid-level",
+    "avg_salary": 110597.49,
+    "job_count": 2473
+  },
+  {
+    "job_title": "Product Manager",
+    "experience_level": "Senior",
+    "avg_salary": 154934.5,
+    "job_count": 2522
+  },
+  {
+    "job_title": "Software Engineer",
+    "experience_level": "Entry-level",
+    "avg_salary": 73840.52,
+    "job_count": 2584
+  },
+  {
+    "job_title": "Software Engineer",
+    "experience_level": "Lead",
+    "avg_salary": 169137.94,
+    "job_count": 2538
+  },
+  {
+    "job_title": "Software Engineer",
+    "experience_level": "Mid-level",
+    "avg_salary": 102541.09,
+    "job_count": 2560
+  },
+  {
+    "job_title": "Software Engineer",
+    "experience_level": "Senior",
+    "avg_salary": 140305.89,
+    "job_count": 2494
+  }
+]
